@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Hackathon NYC Oct 2025 - Grading Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>✋ AI Agent Hackathon NYC</h1>
+                <p class="subtitle">October 2025 - OpenHands Project Applicants</p>
+                <div class="stats-overview">
+                    <div class="stat-card">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Projects Evaluated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Qualified</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Not Qualified</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+
+            <section class="requirements-section">
+                <h2><i class="fas fa-clipboard-check"></i> Hackathon Requirements</h2>
+                <div class="requirements-grid">
+                    <div class="requirement-category">
+                        <h3>OpenHands SDK Requirements</h3>
+                        <ul>
+                            <li><i class="fas fa-cog"></i> Agent Setup with LLM + tools</li>
+                            <li><i class="fas fa-comments"></i> Working conversation flow</li>
+                            <li><i class="fas fa-tools"></i> Use BashTool or FileEditorTool</li>
+                            <li><i class="fas fa-code"></i> Code runs without errors</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-category">
+                        <h3>MCP Requirements</h3>
+                        <ul>
+                            <li><i class="fas fa-server"></i> At least 1 MCP server</li>
+                            <li><i class="fas fa-cogs"></i> Valid mcp_config dictionary</li>
+                            <li><i class="fas fa-play"></i> MCP tools called in conversation</li>
+                            <li><i class="fas fa-book"></i> Clear setup instructions</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="summary-section">
+                <h2><i class="fas fa-chart-bar"></i> Summary</h2>
+                <div class="summary-content">
+                    <div class="summary-card">
+                        <h3>Overall Results</h3>
+                        <p>All 7 submitted projects failed to meet the basic requirements for the OpenHands Agent SDK Hackathon. While many projects demonstrated strong technical skills and innovative solutions, none implemented the required OpenHands SDK with proper Agent/Conversation classes or MCP (Model Context Protocol) integration.</p>
+                    </div>
+                    <div class="summary-card">
+                        <h3>Common Issues</h3>
+                        <ul>
+                            <li>No OpenHands SDK imports or usage</li>
+                            <li>Missing Agent and Conversation implementations</li>
+                            <li>No MCP server configuration</li>
+                            <li>Wrong technology stacks (Next.js, FastAPI, etc.)</li>
+                            <li>Projects built for different hackathons</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p><i class="fas fa-info-circle"></i> These projects were graded and scored by <strong>OpenHands</strong></p>
+                <p class="footer-note">Evaluation completed on October 4, 2025</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
