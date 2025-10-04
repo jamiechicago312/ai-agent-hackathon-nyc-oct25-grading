@@ -40,7 +40,18 @@ body {
     margin-bottom: 10px;
 }
 
-/* Emoji styling for header */
+/* OpenHands link styling */
+.openhands-link {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.openhands-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 .subtitle {
     font-size: 1.2rem;
